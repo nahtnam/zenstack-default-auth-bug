@@ -9,16 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@premieroctet/next-admin": "^4.1.0",
+    "@prisma/client": "^5.13.0",
+    "@zenstackhq/runtime": "2.0.3",
+    "next": "14.2.3",
+    "prisma-json-schema-generator": "^5.1.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "next-superjson-plugin": "0.6.1",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "prisma": "^5.13.0",
+    "superjson": "2.2.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "zenstack": "2.0.3"
   }
 }
